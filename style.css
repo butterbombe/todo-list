@@ -1,0 +1,75 @@
+html{
+    
+    color: #DEDEDE;
+    
+}
+
+p{
+    font-size: 30px;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}
+h4{
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    user-select: none;
+}
+body{
+    background-color: #2C2C2C;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+button{
+    background-color: #3D3D3D;
+    border: none;
+    cursor: pointer;
+    color: #DEDEDE;
+    height: 30px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    user-select: none;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px  #202020;
+}
+button:hover{
+    background-color: #343434;
+}
+.textfield{
+    border-radius: 10px;
+    font-weight: bold;
+    height: 30px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px  #202020;
+}
+.textfield:focus
+{
+    outline: none;
+}
+.todo-list{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    overflow-wrap: break-word;
+    width: 550px;
+    background-color: #3a3a3a;
+    box-shadow: 1px 1px 5px  #202020;
+
+}
+
+.task
+{
+    text-decoration: line-through 1.5px;
+    color: #656565;
+}
