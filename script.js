@@ -1,9 +1,9 @@
-let tasks = [];
+//initialize
+const input = document.getElementById("input");
+const parentElement = document.getElementById("list-body");
+const parentElement = document.getElementById("list-body");
 
 function addToList(){
-    const input = document.getElementById("input");
-    const parentElement = document.getElementById("list-body");
-
     if(input.value === "")
     { 
         return;
@@ -21,12 +21,10 @@ function addToList(){
     //display element
     parentElement.appendChild(paragraph);
 }
-//add enter <------ to add
+//to-do: add function call on Enter
 
 function clearList()
 {
-    const parentElement = document.getElementById("list-body");
-
     while (parentElement.firstChild) {
         parentElement.removeChild(parentElement.firstChild);
       }
