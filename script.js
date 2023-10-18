@@ -26,6 +26,7 @@ function addToList(){
 
 function clearList()
 {
+    const parentElement = document.getElementById("list-body");
     while (parentElement.firstChild) {
         parentElement.removeChild(parentElement.firstChild);
       }
