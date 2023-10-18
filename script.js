@@ -1,8 +1,10 @@
-//initialize
-const input = document.getElementById("input");
-const parentElement = document.getElementById("list-body");
+
 
 function addToList(){
+    //initialize
+    const input = document.getElementById("input");
+    const parentElement = document.getElementById("list-body");
+    
     if(input.value === "")
     { 
         return;
