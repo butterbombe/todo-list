@@ -1,10 +1,7 @@
-
-
 function addToList(){
-    //initialize
     const input = document.getElementById("input");
     const parentElement = document.getElementById("list-body");
-    
+
     if(input.value === "")
     { 
         return;
@@ -22,11 +19,12 @@ function addToList(){
     //display element
     parentElement.appendChild(paragraph);
 }
-//to-do: add function call on Enter
+//add enter <------ to add
 
 function clearList()
 {
     const parentElement = document.getElementById("list-body");
+
     while (parentElement.firstChild) {
         parentElement.removeChild(parentElement.firstChild);
       }
